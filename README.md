@@ -5,27 +5,27 @@
 
   
   <p align="center">
-  <a href="https://github.com/maurodesouza/profile-readme-generator/fork" target="_blank">
+  <a href="https://github.com/EnigmaDevlp/Site-Vitrine/fork" target="_blank">
     <img src="https://img.shields.io/github/forks/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project forks"/>
   </a>
 
-  <a href="https://github.com/maurodesouza/profile-readme-generator/stargazers" target="_blank">
+  <a href="https://github.com/EnigmaDevlp/Site-Vitrine/stargazers" target="_blank">
     <img src="https://img.shields.io/github/stars/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project stars"/>
   </a>
 
-  <a href="https://github.com/maurodesouza/profile-readme-generator/commits/main" target="_blank">
+  <a href="https://github.com/EnigmaDevlp/Site-Vitrine/commits/main" target="_blank">
     <img src="https://img.shields.io/github/commit-activity/m/EnigmaDevlp/Site-Vitrine?" alt="Badge showing average commit frequency per month"/>
   </a>
 
-  <a href="https://github.com/maurodesouza/profile-readme-generator/commits/main" target="_blank">
+  <a href="https://github.com/EnigmaDevlp/Site-Vitrine/commits/main" target="_blank">
     <img src="https://img.shields.io/github/last-commit/EnigmaDevlp/Site-Vitrine?" alt="Badge showing when the last commit was made"/>
   </a>
 
-  <a href="https://github.com/maurodesouza/profile-readme-generator/issues" target="_blank">
+  <a href="https://github.com/EnigmaDevlp/Site-Vitrine/issues" target="_blank">
     <img src="https://img.shields.io/github/issues/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project issues"/>
   </a>
 
-  <a href="https://github.com/maurodesouza/profile-readme-generator/pulls" target="_blank">
+  <a href="https://github.com/EnigmaDevlp/Site-Vitrine/pulls" target="_blank">
     <img src="https://img.shields.io/github/issues-pr/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project pull-requests"/>
   </a>
 
