@@ -1,0 +1,313 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--color-5);
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+:root {
+    --color-1: #390038;
+    --color-2: #7a3776;
+    --color-3: #af7bbd;
+    --color-4: #cab3e6;
+    --color-5: #dbd9e8;
+}
+
+/* Scrollbar CSS  */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-1);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--color-3);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--color-2);
+    border-radius: 10px;
+    border: 3px solid #ffffff00;
+  }
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #7a3775b8;
+    box-shadow: 0px 6px 0px 0px var(--color-1);
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .logo img {
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: var(--color-3);
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: var(--color-3);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: var(--color-4);
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+
+   /* BG-Images */
+   div#bg-home {
+    background-image: url(src/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 625px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 740px) {
+    div#bg-home {
+      background-image: url(src/bg.jpg);
+      justify-content: center;
+      
+    }
+  }
+
+  .myButton {
+    box-shadow: 3px 5px 6px 0px #954ee6;
+    background:linear-gradient(to bottom, #790fdb 5%, #8610e6 100%);
+    background-color:#790fdb;
+    border-radius:10px;
+    border:3px solid #a028f0;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:28px;
+    padding:21px 36px;
+    text-decoration:none;
+    text-shadow:0px 5px 4px #7608f5;
+    margin-top: 450px;
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #8610e6 5%, #790fdb 100%);
+    background-color:#8610e6;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+
+  /* Box */
+
+div.box-1 {
+  margin: auto;
+  width: 85%;
+  border-radius: 4px;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  background-color: var(--color-2);
+  display: flex;
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+div.box-container-1 {
+  margin: 15px auto;
+  width: 900px;
+  height: 600px;
+  background-color: var(--color-1);
+  border: solid 3px var(--color-4);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+}
+
+div.box-2 {
+  margin: auto;
+  width: 85%;
+  border-radius: 4px;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  background-color: var(--color-2);
+  display: flex;
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+div.box-container-2 {
+  margin: 15px auto;
+  width: 400px;
+  height: 400px;
+  background-color: var(--color-1);
+  border: solid 3px var(--color-4);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+}
+
+
+
+  /* Footer */
+
+  .footer-distributed {
+    background-color: #7a3775;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 160px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
