@@ -29,11 +29,6 @@
     <img src="https://img.shields.io/github/issues-pr/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project pull-requests"/>
   </a>
 
-  <a href="https://github.com/maurodesouza/profile-readme-generator/blob/master/LICENSE.md" target="_blank">
-    <img alt="Badge showing project license type" src="https://img.shields.io/github/license/EnigmaDevlp/Site-Vitrine?color=f85149">
-  </a>
-</p>
-
   
   ## :dart: About ##
   
