@@ -2,37 +2,37 @@
     <h1>Petit Site Vitrine</h1>
     <h3>Je vous presente le Home de mon site vitrine en Open Sources, fait pour etre modifié par vos soins</h3>
  </div>
- 
- <div align="center">
-  <h1>Profile Readme Generator</h1>
-  <h3>The best profile readme generator you will find!</h3>
-</div>
+
   
   <p align="center">
-    <a href="https://github.com/EnigmaDevlp/Site-Vitrine/fork" target="_blank">
-      <img src="https://img.shields.io/github/forks/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project forks"/>
-    </a>
-  
-    <a href="https://github.com/EnigmaDevlp/Site-Vitrine/stargazers" target="_blank">
-      <img src="https://img.shields.io/github/stars/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project stars"/>
-    </a>
-  
-    <a href="https://github.com/EnigmaDevlp/Site-Vitrine/commits/main" target="_blank">
-      <img src="https://img.shields.io/github/commit-activity/m/EnigmaDevlp/Site-Vitrine?" alt="Badge showing average commit frequency per month"/>
-    </a>
-  
-    <a href="https://github.com/EnigmaDevlp/Site-Vitrine/commits/main" target="_blank">
-      <img src="https://img.shields.io/github/last-commit/EnigmaDevlp/Site-Vitrine?" alt="Badge showing when the last commit was made"/>
-    </a>
-  
-    <a href="https://github.com/EnigmaDevlp/Site-Vitrine/issues" target="_blank">
-      <img src="https://img.shields.io/github/issues/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project issues"/>
-    </a>
-  
-    <a href="https://github.com/EnigmaDevlp/Site-Vitrine/pulls" target="_blank">
-      <img src="https://img.shields.io/github/issues-pr/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project pull-requests"/>
-    </a>
-  </p>
+  <a href="https://github.com/maurodesouza/profile-readme-generator/fork" target="_blank">
+    <img src="https://img.shields.io/github/forks/maurodesouza/profile-readme-generator?" alt="Badge showing the total of project forks"/>
+  </a>
+
+  <a href="https://github.com/maurodesouza/profile-readme-generator/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/maurodesouza/profile-readme-generator?" alt="Badge showing the total of project stars"/>
+  </a>
+
+  <a href="https://github.com/maurodesouza/profile-readme-generator/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/commit-activity/m/maurodesouza/profile-readme-generator?" alt="Badge showing average commit frequency per month"/>
+  </a>
+
+  <a href="https://github.com/maurodesouza/profile-readme-generator/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/maurodesouza/profile-readme-generator?" alt="Badge showing when the last commit was made"/>
+  </a>
+
+  <a href="https://github.com/maurodesouza/profile-readme-generator/issues" target="_blank">
+    <img src="https://img.shields.io/github/issues/maurodesouza/profile-readme-generator?" alt="Badge showing the total of project issues"/>
+  </a>
+
+  <a href="https://github.com/maurodesouza/profile-readme-generator/pulls" target="_blank">
+    <img src="https://img.shields.io/github/issues-pr/maurodesouza/profile-readme-generator?" alt="Badge showing the total of project pull-requests"/>
+  </a>
+
+  <a href="https://github.com/maurodesouza/profile-readme-generator/blob/master/LICENSE.md" target="_blank">
+    <img alt="Badge showing project license type" src="https://img.shields.io/github/license/maurodesouza/profile-readme-generator?color=f85149">
+  </a>
+</p>
 
   
   ## :dart: About ##
