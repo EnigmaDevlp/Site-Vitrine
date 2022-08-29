@@ -10,7 +10,7 @@
   </a>
 
   <a href="https://github.com/EnigmaDevlp/Site-Vitrine/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/EnigmaDevlp/Site-Vitrine?" alt="Badge showing the total of project stars"/>
+    <img src="https://img.shields.io/github/stars/enigmadevlp/Site-Vitrine?" alt="Badge showing the total of project stars"/>
   </a>
 
   <a href="https://github.com/EnigmaDevlp/Site-Vitrine/commits/main" target="_blank">
